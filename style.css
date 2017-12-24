@@ -3,7 +3,23 @@ Template: twentyseventeen
 Theme Name: Twenty Seventeen (customized by almajiro)
 */
 
-.avatar{
+img.avatar{
 	border-radius: 50px;
 	border-style: outset;
+}
+
+div.profile-box{
+	padding-left: 100px;
+}
+
+div.profile-avatar{
+	float: left;
+}
+
+p.profile.nickname{
+	margin: 0;
+}
+
+div.profile{
+	padding-top: 20px;
 }

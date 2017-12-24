@@ -69,10 +69,14 @@
 	<?php if ( is_single() ) : ?>
 		<?php twentyseventeen_entry_footer(); ?>
 
-		<?php echo get_avatar(get_the_author_meta('user_email'), 80, ''); ?>
-		<div>
-			<?php the_author_meta('nickname'); ?>
-			<?php the_author_meta('description'); ?>
+		<div class="profile">
+			<div class="profile-avatar">
+				<?php echo get_avatar(get_the_author_meta('user_email'), 80, ''); ?>
+			</div>
+			<div class="profile-box">
+				<p class="profile nickname"><?php the_author_meta('nickname'); ?></p>
+				<?php the_author_meta('description'); ?>
+			</div>
 		</div>
 	<?php endif; ?>
 </article><!-- #post-## -->
