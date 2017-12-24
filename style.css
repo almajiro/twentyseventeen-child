@@ -29,3 +29,12 @@ p.profile.nickname{
 div.profile{
 	padding-top: 20px;
 }
+
+span.labmember{
+	float: right;
+	font-style: italic;
+}
+
+span.phrase{
+	font-weight: 900;
+}
