@@ -3,8 +3,14 @@
 require_once locate_template('widgets.php', true);
 
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
+add_action('wp_head', 'add_meta_to_head');
 add_action('admin_bar_menu', 'admin_bar_custom', 11);
 add_filter('admin_footer_text', 'remove_footer_admin');
+
+function add_meta_to_head()
+{
+	echo '<script defer src="'. get_stylesheet_directory_uri() . "/assets/js/fontawesome-all.min.js". '"></script>';
+}
 
 function admin_bar_custom($wp_admin_bar)
 {
