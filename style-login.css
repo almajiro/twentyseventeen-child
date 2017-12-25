@@ -1,0 +1,29 @@
+body.login {
+	background-image: linear-gradient(-90deg, #494F5F, #503036);
+}
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a {
+	background-image: url("assets/img/amadeus.png");
+	background-size: 200px;
+	height: 140px;
+	width: 200px;
+}
+body.login div#login form#loginform {
+	margin-top: 0px;
+	border-radius: 20px;
+	background: #0003;
+}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {}
+body.login div#login p#nav { visibility: hidden; }
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog { visibility: hidden; }
+body.login div#login p#backtoblog a {}

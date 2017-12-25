@@ -5,6 +5,7 @@ require_once locate_template('widgets.php', true);
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 add_action('wp_head', 'add_meta_to_head');
 add_action('admin_bar_menu', 'admin_bar_custom', 11);
+add_action('login_enqueue_scripts', 'my_login_stylesheet');
 add_filter('admin_footer_text', 'remove_footer_admin');
 
 function add_meta_to_head()
@@ -29,6 +30,11 @@ function remove_footer_admin()
 function theme_enqueue_styles()
 {
         wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
+}
+
+function my_login_stylesheet()
+{
+	wp_enqueue_style('custom-login', get_stylesheet_directory_uri(). '/style-login.css');
 }
 
 ?>
