@@ -31,5 +31,8 @@ span.labmember{
 
 span.phrase{ font-weight: 900; }
 div.navigation-top { box-shadow: 5px 5px 4px #591010b3; }
-.site-footer { box-shadow: -2px 2px 4px inset; }
 .site-title { text-transform: none; }
+
+#primary { width: 65%; }
+#secondary { width: 30%; }
+
