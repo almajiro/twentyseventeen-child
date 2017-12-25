@@ -24,6 +24,7 @@ div.profile-avatar{
 
 p.profile.nickname{
 	margin: 0;
+	border-bottom-style: dotted;
 }
 
 div.profile{
