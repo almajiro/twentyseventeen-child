@@ -56,7 +56,7 @@ class FG_Widget extends WP_Widget {
 
 	function widget($args, $instance)
 	{
-		$i = mt_rand(0, count($this->phrase)) - 1;
+		$i = mt_rand(0, count($this->phrase));
 
 		echo '<section id="steinsgate" class="widget"><h2 class="widget-title">steins; gate</h2>';
 		echo '<span class="phrase">'. $this->phrase[$i][1]. '</span>';

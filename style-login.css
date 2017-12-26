@@ -27,3 +27,4 @@ body.login div#login p#nav { visibility: hidden; }
 body.login div#login p#nav a {}
 body.login div#login p#backtoblog { visibility: hidden; }
 body.login div#login p#backtoblog a {}
+body.login .message { background-color: #fff6; }

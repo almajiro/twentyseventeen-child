@@ -35,3 +35,7 @@ div.navigation-top { box-shadow: 5px 5px 4px #591010b3; }
 
 .wrap { max-width: 1200px; }
 .navigation-top .wrap { max-width: 1200px; }
+#divergence_meter_cv {
+	background: black;
+	box-shadow: 0px 0px 10px 0px #dd1a1a;
+}
